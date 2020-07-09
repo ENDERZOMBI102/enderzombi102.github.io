@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.navitem {
+    background-color: yellow;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-indent: 20px;
+}
+.navitem a {
+    text-decoration: none;
+    color: blue;
+}
+.navitem a:hover {
+    text-decoration: none;
+    color: cyan;
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.wbody {
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: white;
+}
+
+footer {
+    font-size: 10px;
+}
