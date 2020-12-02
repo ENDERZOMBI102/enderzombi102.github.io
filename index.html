@@ -2,18 +2,30 @@
     <head>
         <title>ENDERZOMBI102 Website</title>
         <meta charset="utf-8">
-        <meta name="description" content="ENDERZOMBI102 website">
+        <meta name="description" content="ENDERZOMBI102's website">
         <meta name="keywords" content="JavaScript, Python, Minecraft, Portal 2, Steam workshop, BEE2.4, c++, bots, Twitch">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="ENDERZOMBI102">
-        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-        <script src="libs/jquery-3.5.1.js"></script>
-        <!-- <base href="https://enderzombi102.glitch.me/"> -->
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
     </head>
     <body>
-        <div id="top"></div>
+        <header>
+            <nav>
+                <ul>
+                    <li class="navitem"><a onclick="changeTo('home')">Home</a></li>
+                    <li class="navitem"><a onclick="changeTo('projects')">Projects</a></li>
+                    <li class="navitem"><a onclick="changeTo('ctf')">ICG nano CTF</a></li>
+                    <li class="navitem"><a onclick="changeTo('contact')">Contact</a></li>
+                    <li class="navitem"><a onclick="changeTo('whoami')">Whoami</a></li>
+                </ul>
+            </nav>
+        </header>
+        <iframe height="100%" width="100%" id=content src="contact.html" style="border:none;">
 
+
+
+        </iframe>
     </body>
 </html>
