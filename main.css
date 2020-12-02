@@ -38,3 +38,7 @@ header nav ul {
 footer {
     font-size: 10px;
 }
+
+.text {
+    color: gray;
+}
